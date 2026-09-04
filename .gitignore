@@ -1,2 +1,5 @@
 /models
 *.tar.gz
+test.txt
+train.txt
+news
