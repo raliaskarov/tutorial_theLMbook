@@ -1,6 +1,6 @@
---extra-index-url https://download.pytorch.org/whl/cu124
+# GRPO from scratch (Qwen2.5-1.5B-Instruct)
 
-torch==2.5.1+cu124
+torch==2.5.1
 transformers==4.49.0
 accelerate==1.4.0
 numpy==2.2.3
@@ -8,13 +8,16 @@ scipy==1.15.2
 scikit-learn==1.6.1
 
 huggingface-hub>=0.26,<1.0
-datasets<4
+datasets==3.6.0
+pyarrow<21         
 pandas==2.2.3
 wandb
+python-dotenv
 ipykernel
 
-setuptools
-wheel
-packaging
-ninja
-psutil
+# Build tools for optional flash-attn
+#setuptools
+#wheel
+#packaging
+#ninja
+#psutil
