@@ -1,0 +1,69 @@
+_wandb:
+    value:
+        cli_version: 0.30.0
+        e:
+            hx1yx6rp9ti6duc8o34fbn3bnshhp2s7:
+                cpu_count: 26
+                cpu_count_logical: 52
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "5860708995072"
+                        used: "41886687232"
+                email: r.aliaskarov@gmail.com
+                executable: /home/ubuntu/tutorial_theLMbook/.venv/bin/python
+                git:
+                    commit: cd58d636fc59d476062a093a5caf0f84115bb227
+                    remote: git@github.com:raliaskarov/tutorial_theLMbook.git
+                gpu: NVIDIA H100 80GB HBM3
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "85520809984"
+                      name: NVIDIA H100 80GB HBM3
+                      uuid: GPU-1abe2baf-b953-ffe4-4a78-1a1426586bc7
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "85520809984"
+                      name: NVIDIA H100 80GB HBM3
+                      uuid: GPU-51fcf073-63f4-206b-cf5a-595da8c083a2
+                host: 68-209-73-109
+                memory:
+                    total: "475296002048"
+                os: Linux-6.8.0-1046-nvidia-x86_64-with-glibc2.35
+                program: <python with no main file>
+                python: CPython 3.11.17
+                root: /home/ubuntu/tutorial_theLMbook
+                startedAt: "2026-10-07T08:38:18.896279Z"
+                writerId: hx1yx6rp9ti6duc8o34fbn3bnshhp2s7
+        m: []
+        python_version: 3.11.17
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+            "3":
+                - 2
+            "4": 3.11.17
+            "5": 0.30.0
+            "6": 4.49.0
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.30.0
+            "13": linux-x86_64
